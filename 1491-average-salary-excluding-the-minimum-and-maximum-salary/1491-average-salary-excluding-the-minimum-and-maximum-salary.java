@@ -1,8 +1,8 @@
 class Solution {
     public double average(int[] salary) {
         
-        int min = salary[0];
-        int max = salary[0];
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
         double avg =0;
         for(int a =0;a<salary.length;a++)
         {
